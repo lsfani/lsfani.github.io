@@ -1,0 +1,13 @@
+body {background-image: url(/Users/ls/Desktop/lsfani.github.io/Controle0612/cement.jpeg);}
+h1 {text-align: center;}
+h2 {color: blue; background: grey;}
+p {text-align: justify; margin-top: 16px;}
+.surligne {background: seashell;}
+p {background: seashell;}
+span {background: yellow;}
+div p{background: slateblue;}
+ol li {list-style-type: upper-roman;}
+ol li ol li {list-style-type: upper-greek;}
+ol li ol li ol li {list-style-type: lower-roman;}
+{background: lightgrey;font-family:  "helvetica"; font-size: 20px ;
+	text-align: center; display : grid; border: dotted ; border-width: 4px; position : relative ; height: 70px ; width:12% ; text-transform : uppercase ; font-weight : bold ; padding : 0 ; }
