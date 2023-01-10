@@ -1,0 +1,23 @@
+ /* Les modifications suivantes seront appliquées lors de l'impression au format PDF */
+
+body {
+    background : white ;
+    font-family : "times" ;
+    font-size : 10pt ;
+    text-align: justify;
+    margin-top : 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;}
+ /* Modification de la couleur de fond, la police d'écriture, la taille d'écriture, l'alignement du texte et des marges */
+
+fieldset{border: none;}
+input[type="checkbox"]{display: none;}
+input[type="checkbox"]:checked+label}
+ /* Tentative d'effacer le contour de mes checkbox tout en affichant ce qui a été coché */
+
+.droite{text-align:right;}
+ /* Alignement du texte à droite lorsque la balise en question contiendra "class="right" */
+
+.caché{visibility: hidden;}
+ /* Le contenu des balises avec "class=caché" ne sera pas visible */

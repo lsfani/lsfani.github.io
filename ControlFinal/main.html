@@ -1,0 +1,134 @@
+<!--Contrôle final - S1 PW - MDID 2022-2024-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Demande d'exercice de droit.s</title>
+<link rel="stylesheet" type="text/css" href="mainPDF.css" media="print">
+</head>
+<!--en tête avec lien menant au CSS pour l'impression-->
+  
+<body>
+
+<button type = "button" onclick = 
+            "alert('Il s agit d une lettre d exercice de droits pré-remplie. Si vous souhaitez formuler une lettre pour une demande d exercice de droits, vous n aurez qu à compléter cette page et imprimer la lettre obtenue.')" class="caché"> 
+            De quoi s'agit-il ?
+</button>
+<!--Bouton pour expliquer l'objet du document-->
+
+<h2 class="caché"><u>En-tête de la lettre</u></h2>
+<p></p>
+<!--Il s'agira de zones de textes à compléter par la personne souhaitant écrire la lettre pour en constituer l'en-tête-->
+
+<div>
+<label for="nom du message" class="caché">Prénom, nom de l'expéditeur</label><br></br>
+<input type="text" id="nom du message" name="nom du message" required>
+</div>
+<div>
+<label for="nom du message" class="caché">Adresse</label><br></br>
+<textarea id="message" name="message" required></textarea></div>
+<div>
+<label for="nom du message" class="caché">Numéro de tel</label><br></br>
+<input type="text" id="nom du message" name="nom du message" required>
+</div>
+<div>
+<label for="nom du message" class="caché">Adresse e-mail</label><br></br>
+<input type="text" id="nom du message" name="nom du message" required>
+</div>
+<p></p>
+<div class="droite">
+<label for="nom du message" class="caché">Prénom, nom / organisme destinataire</label><br></br>
+<input type="text" id="nom du message" name="nom du message" required>
+</div>
+<div class="droite">
+<label for="nom du message" class="caché">Adresse</label><br></br>
+<textarea id="message" name="message" required></textarea>
+</div>
+<p></p>
+<div class="droite">
+<label for="nom du message" class="caché">Lieu, date</label><br></br>
+<input type="text" id="nom du message" name="nom du message" required>
+</div>
+<p></p>
+<div>
+<label for="nom du message" class="caché">Objet</label><br></br>
+<input type="text" id="nom du message" name="nom du message" placeholder="Demande d'exercice de droits dans le cadre de..." required>
+</div>
+
+<p></p>
+
+<h2 class="caché"><u>Corps de la lettre</u></h2>
+<!--Il s'agira de listes déroulantes et zones de texte permettant à la personne d'obtenir le corps de sa lettre-->
+
+<div>
+<label for="sujet" class="caché">Formule d'appel</label><br></br>
+<select name="sujet" id="sujet" required>
+<option value="" disabled selected hidden>Madame/Monsieur</option>
+    <option value="choix en bref">Madame </option>
+    <option value="choix en bref">Monsieur </option>
+    <option value="choix en bref">Madame, Monsieur, </option>
+</select>
+</div>
+
+<div>
+<label for="nom du message" class="caché">Nom de la personne (optionnel) </label><br></br>
+<input type="text" id="nom du message" name="nom du message" placeholder="nom" required>
+</div>
+
+Actuellement<div> <label for="nom du message"></label> <input type="text" id="nom du message" name="nom du message" placeholder="qualité (agent, abonné...)" required> </div>, je souhaiterais exercer mon droit<div> <label for="sujet"></label> <select name="sujet" id="sujet" required> <option value="" disabled selected hidden>droit.s à exercer</option>
+    <option value="choix en bref">d'accès</option>
+    <option value="choix en bref">d'information</option>
+    <option value="choix en bref">de rectification</option>
+</select>
+</div><div>
+<label for="nom du message">correspondant aux traitements de mes données dans le cadre de</label>
+<textarea id="message" name="message" placeholder="ma candidature, mon embauche..." required></textarea></div>
+	<div>
+<label for="nom du message">, et plus précisément sur</label>
+<textarea id="message" name="message" placeholder="Les critères de sélection, le contenu du traitement algorithmique..." required></textarea></div>
+<p></p>
+Je souhaiterais obtenir une copie, en langage clair, de l’ensemble de ces données (y compris celles figurant dans les zones « blocs-notes » ou « commentaires »), en application de l’article 15 du Règlement général sur la protection des données (RGPD) et de l’article R311-3-1-2 du Code des relations entre le public et l’administration.
+<p></p>
+Je vous remercie de me faire parvenir votre réponse dans les meilleurs délais et au plus tard dans un délai d’un mois à compter de la réception de ma demande (article 12.3 du RGPD).
+<p></p>
+A défaut de réponse de votre part dans les délais impartis ou en cas de réponse incomplète, je me réserve la possibilité de saisir la Commission nationale de l’informatique et des libertés (CNIL) d’une réclamation ainsi que la Commission d'accès aux documents administratifs.
+<p></p>
+A toutes fins utiles, vous trouverez des informations sur le site internet de la CNIL : https://www.cnil.fr/fr/professionnels-comment-repondre-une-demande-de-droit-dacces ; ainsi que sur celui de la CADA : https://www.cada.fr/administration/la-communication-des-documents-administratifs
+
+<p></p>
+
+<h2 class="caché"><u>Formule de politesse</u></h2>
+<!--Il s'agira de  zones de texte permettant à la personne d'obtenir la formule de politesse pour sa lettre-->
+
+<div>
+<label for="nom du message"></label>
+<textarea id="message" name="message" placeholder="Je vous prie d'agréer..." required></textarea></div>
+<p></p>
+<div>
+<label for="nom du message"></label>
+<textarea id="message" name="message" placeholder="Prénom, nom" required></textarea></div>
+
+<p></p>
+
+<h2 class="caché"><u>Base juridique</u></h2>
+<!--La personne pourra cocher la base juridique pré-remplie, ou en rédiger une autre en utilisant la case "autre"-->
+
+<div>
+  <input type="checkbox" id="nom de la case" name="nom" value="nom de la case encore" (checked)>
+  <label for="nom de la case">Dans le cadre de la sélection à l’Université  via des algorithmes locaux, le candidat est autorisé à avoir accès aux critères de sélection et à la copie du code source de l’algorithme conformément à :
+1. L’article 15 de la Déclaration des Droits de l’Homme et du Citoyen de 1789 de valeur constitutionnelle : “La Société a le droit de demander compte à tout Agent public de son administration”
+2. L’article R.311-13 du Code des relations entre le public et l’administration : “Le délai au terme duquel intervient la décision mentionnée à l'article R. * 311-12 est d'un mois à compter de la réception de la demande par l'administration compétente.”
+3. L’article 48 de la Loi 78-17 relative à l’informatique, aux fichiers et aux libertés : “Le droit à l'information s'exerce dans les conditions prévues aux articles 12 à 14 du règlement (UE) 2016/679 du 27 avril 2016.”
+4. L’article 12.1 du Règlement (UE) 2016/679 du 27 avril 2016 : “Le responsable du traitement prend des mesures appropriées pour fournir toute information visée aux articles 13 et 14 ainsi que pour procéder à toute communication au titre des articles 15 à 22 et de l'article 34 en ce qui concerne le traitement à la personne concernée d'une façon concise, transparente, compréhensible et aisément accessible, en des termes clairs et simples, en particulier pour toute information destinée spécifiquement à un enfant. Les informations sont fournies par écrit ou par d'autres moyens y compris, lorsque c'est approprié, par voie électronique. Lorsque la personne concernée en fait la demande, les informations peuvent être fournies oralement, à condition que l'identité de la personne concernée soit démontrée par d'autres moyens.”
+5. L’article 12.3 du Règlement (UE) 2016/679 du 27 avril 2016 : “Le responsable du traitement fournit à la personne concernée des informations sur les mesures prises à la suite d'une demande formulée en application des articles 15 à 22, dans les meilleurs délais et en tout état de cause dans un délai d'un mois à compter de la réception de la demande.”
+6. L’article 15 du Règlement (UE) 2016/679 du 27 avril 2016 : “La personne concernée a le droit d'obtenir du responsable du traitement la confirmation que des données à caractère personnel la concernant sont ou ne sont pas traitées et, lorsqu'elles le sont, l'accès auxdites données à caractère personnel ainsi que les informations suivantes: a) les finalités du traitement; b) les catégories de données à caractère personnel concernées; (...) h) l'existence d'une prise de décision automatisée, y compris un profilage, visée à l'article 22, paragraphes 1 et 4, et, au moins en pareils cas, des informations utiles concernant la logique sous-jacente, ainsi que l'importance et les conséquences prévues de ce traitement pour la personne concernée”
+7. L’article 311-3 du Code des relations entre le public et l’administration : “ Sous réserve des dispositions de la loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, concernant les données à caractère personnel figurant dans des fichiers, toute personne a le droit de connaître les informations contenues dans un document administratif dont les conclusions lui sont opposées.Sur sa demande, ses observations à l'égard desdites conclusions sont obligatoirement consignées en annexe au document concerné.”
+8. L’avis de la Commission d’Accès aux Documents Administratifs 2014-4578 : "les fichiers informatiques constituant le code source sollicité, produits par la direction générale des finances publiques dans le cadre de sa mission de service public, revêtent le caractère de documents administratifs, au sens de l'article 1er de la loi du 17 juillet 1978. Ce code est, de ce fait, communicable à toute personne qui le demande (...)."</label>
+</div>
+<div>
+<label for="nom du message" class="caché">Autre :</label><br></br>
+<textarea id="message" name="message" placeholder="Conformément à..." required></textarea></div>
+
+</body>
+</html>
